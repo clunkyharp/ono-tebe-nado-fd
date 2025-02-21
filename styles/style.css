@@ -1,1 +1,138 @@
 /* место для вашего кода */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 93px 50px 96px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.header__menu {
+  display: flex;
+  width: 100%;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__navigation-list-item-link {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-right: 3px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  width: 148px;
+}
+
+.header__logo-image {
+  height: 105px;
+}
+
+.address {
+  padding-left: 187px;
+  line-height: 24.3px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address__items-links {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.cover {
+  position: relative;
+  background-image: url("/images/cover.jpg");
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #000;
+  opacity: 0.6;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  padding: 165px 50px 50px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text-center {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.aligned-text-right {
+  padding-top: 15px;
+  text-align: right;
+}
+
+.no-letter-spacing {
+  margin-right: -0.3em;
+}
+
+.cover__description-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  margin: 54px 50px 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  padding-top: 14px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.bet-button {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 50px;
+  padding: 12px 31px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
